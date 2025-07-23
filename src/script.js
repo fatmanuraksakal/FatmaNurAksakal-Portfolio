@@ -1,6 +1,6 @@
 // script.js
 async function fetchGitHubRepos() {
-  const username = "fatmanuraksakal"; // kendi GitHub kullanıcı adını gir
+  const username = "fatmanuraksakal";
   const apiURL = `https://api.github.com/users/${username}/repos?sort=updated&per_page=4`;
 
   try {
